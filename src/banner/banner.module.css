@@ -1,0 +1,82 @@
+.MainSection {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right:60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .LeftSection {
+    width: 28%;
+  }
+  .SectionHeading {
+    font-size: 60px;
+    font-weight: 800;
+    position: relative;
+    width: 335px;
+  }
+  .DotNext {
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #5243c0;
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+  }
+  .Description {
+    color: rgb(102, 100, 100);
+  }
+  .RightSection {
+    width: 65%;
+  }
+.Accountbtn{
+    color: #fff;
+    width: 75px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #5243c0;
+    padding: 12px 18px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .BannerImg {
+    width: 100%;
+  }
+  .BtnWrapper {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ArrowUp {
+    width: 40px;
+    height: 40px;
+  }
+  @media (max-width: 600px) {
+    .MainSection {
+      display: block;
+      margin-left: 16px;
+      margin-top: 25px;
+    }
+    .LeftSection {
+      width: 100%;
+    }
+    .RightSection {
+      width: 100%;
+    }
+    .SectionHeading {
+      font-size: 40px;
+      width: 200px;
+      margin: 0;
+    }
+    .DotNext {
+      right: -25px;
+      bottom: 10px;
+    }
+    .Description {
+      font-size: 14px;
+      margin: 10px 0;
+    }
+  }
+  
